@@ -38,7 +38,7 @@ public class FinalFinch extends Finch{
 
     public void moveFourTimes(String direction){
         for(int i = 0; i < 3; i++){
-            setMove(direction, 2, 100);
+            setMove(direction, 2.1, 100);
         }
     }
 
@@ -54,5 +54,24 @@ public class FinalFinch extends Finch{
        }
        setTurn("L", 450, 100);
 
+    }
+
+    public void OGDance(){
+        setTurn("R", 90, 100);
+        setMove("F", 2, 100);
+        setMove("F", 2, 100);
+        setMove("F", 2, 100);
+        setMove("F", 2, 100);
+        setTurn("L", 180, 100);
+        setMove("F", 2, 100);
+        setMove("F", 2, 100);
+        setMove("F", 2, 100);
+        setMove("F", 2, 100);
+        setTurn("R", 90, 100);
+        for(int i = 0; i < 4; i++){
+        setMove("F", 2, 100);
+        setMove("B", 2, 100);
+       }
+       setTurn("L", 450, 100);
     }
 }

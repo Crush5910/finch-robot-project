@@ -6,6 +6,7 @@ public class TesterFinch{
 
         FinalFinch bird = new FinalFinch("A");
 
+        
         for(int i = 0; i < 5; i++){
             bird.dance();
         }
