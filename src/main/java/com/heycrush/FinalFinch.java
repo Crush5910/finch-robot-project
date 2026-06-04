@@ -38,7 +38,7 @@ public class FinalFinch extends Finch{
 
     public void moveThreeTimes(String direction){
         for(int i = 0; i < 3; i++){
-            setMove(direction, 2.1, 100);
+            setMove(direction, 2.7, 100);
         }
     }
 
